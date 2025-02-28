@@ -38,7 +38,7 @@ In **love2d_dogethesharks**, you control a player sprite that must avoid falling
 - **Via Command Line:**  
   Open your terminal/command prompt, navigate to the project folder, and run:
   ```bash
-  love .
+  run.bat
 
 
   love2d_dogethesharks/
