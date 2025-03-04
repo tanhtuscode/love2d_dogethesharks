@@ -1,3 +1,3 @@
 @echo off
 rem Set the working directory to the location of this batch file
-start "" /D "%~dp0" "D:\Love2D\Setup\LOVE\love.exe" .
+start "" /D "%~dp0" "F:\Love2D\LOVE\love.exe" .

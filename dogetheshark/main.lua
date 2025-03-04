@@ -1,18 +1,22 @@
-local Game = require("game")
-local game
+local GameManager = require("gameManager")
+local manager
 
 function love.load()
-    game = Game.new()
+  manager = GameManager.new()
 end
 
 function love.update(dt)
-    game:update(dt)
+  manager:update(dt)
 end
 
 function love.draw()
-    game:draw()
+  manager:draw()
 end
 
 function love.mousepressed(x, y, button)
-    game:mousepressed(x, y, button)
+  manager:mousepressed(x, y, button)
+end
+
+function love.keypressed(key)
+  manager:keypressed(key)
 end

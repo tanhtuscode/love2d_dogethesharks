@@ -1,11 +1,6 @@
 local Player = {}
 Player.__index = Player
 
--- Creates a new Player.
--- x, y: starting position
--- width, height: dimensions
--- speed: movement speed
--- sprite: a LOVE2D image to represent the player
 function Player.new(x, y, width, height, speed, sprite)
     local self = setmetatable({}, Player)
     self.x = x
